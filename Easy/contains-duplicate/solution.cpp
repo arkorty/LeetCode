@@ -1,5 +1,5 @@
 class Solution {
-  public:
+public:
     bool containsDuplicate(std::vector<int> &nums) {
         std::unordered_set<int> unset;
 
