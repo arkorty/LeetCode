@@ -1,11 +1,11 @@
 #include <stack>
 
 class MyQueue {
-  private:
+private:
     std::stack<int> shelfA;
     std::stack<int> shelfB;
 
-  public:
+public:
     MyQueue() {}
 
     void push(int data) { shelfA.push(data); }

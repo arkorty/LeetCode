@@ -1,5 +1,7 @@
+#include <vector>
+
 class Solution {
-  public:
+public:
     std::vector<int> getRow(int n) {
         std::vector<int> prow = {1};
 

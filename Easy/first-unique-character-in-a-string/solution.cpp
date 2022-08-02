@@ -2,7 +2,7 @@
 #include <unordered_set>
 
 class Solution {
-  public:
+public:
     /*
     int firstUniqChar(std::string line) {
         std::unordered_map<char, int[2]> hmap;

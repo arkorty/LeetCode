@@ -2,9 +2,9 @@
 #include <vector>
 
 class Solution {
-  public:
+public:
     std::vector<std::string> letterCombinations(std::string digits) {
-        std::string letters[] = {"abc", "def",  "ghi", "jkl",
+        std::string letters[] = {"abc", "def", "ghi", "jkl",
                                  "mno", "pqrs", "tuv", "wxyz"};
 
         std::vector<std::string> finvec;

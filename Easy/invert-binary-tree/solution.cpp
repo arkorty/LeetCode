@@ -9,7 +9,7 @@ struct TreeNode {
 };
 
 class Solution {
-  public:
+public:
     TreeNode *invertTree(TreeNode *root) {
         if (root != nullptr) {
             invertTree(root->left);

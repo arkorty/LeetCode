@@ -1,5 +1,8 @@
+#include <cstdint>
+#include <vector>
+
 class Solution {
-  public:
+public:
     int maxSubArray(std::vector<int> &nums) {
         int max = INT32_MIN;
         int tmax = 0;

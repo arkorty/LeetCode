@@ -7,7 +7,7 @@ struct ListNode {
 };
 
 class Solution {
-  private:
+private:
     ListNode *removeElements(ListNode *head, int val) {
         if (head == nullptr) {
             return nullptr;
@@ -19,7 +19,7 @@ class Solution {
         }
     }
 
-  public:
+public:
     ListNode *deleteDuplicates(ListNode *head) {
         for (ListNode *curr = head; curr != nullptr && curr->next != nullptr;
              curr = curr->next) {

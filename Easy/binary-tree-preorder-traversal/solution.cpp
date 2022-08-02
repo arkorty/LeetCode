@@ -11,7 +11,7 @@ struct TreeNode {
 };
 
 class Solution {
-  private:
+private:
     void traverse(std::vector<int> &list, TreeNode *root) {
         if (root == nullptr) {
             return;
@@ -22,7 +22,7 @@ class Solution {
         }
     }
 
-  public:
+public:
     std::vector<int> preorderTraversal(TreeNode *root) {
         std::vector<int> list;
         traverse(list, root);

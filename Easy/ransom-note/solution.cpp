@@ -2,7 +2,7 @@
 #include <unordered_map>
 
 class Solution {
-  public:
+public:
     bool canConstruct(std::string ransomNote, std::string magazine) {
         std::unordered_map<char, int> hmap[2];
 

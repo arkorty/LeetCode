@@ -2,7 +2,7 @@
 #include <string>
 
 class Solution {
-  public:
+public:
     int longestValidParentheses(std::string line) {
         std::stack<int> shelf;
         shelf.push(-1);

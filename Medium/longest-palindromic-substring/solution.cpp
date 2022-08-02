@@ -1,7 +1,7 @@
 #include <string>
 
 class Solution {
-  public:
+public:
     std::string longestPalindrome(std::string line) {
         if (line.size() < 2) {
             return line;

@@ -3,7 +3,7 @@
 #include <vector>
 
 class Solution {
-  public:
+public:
     int removeDuplicates(std::vector<int> &nums) {
         int k = 0, l = INT32_MIN;
         for (auto iter = nums.begin(); iter != nums.end(); iter.operator++()) {

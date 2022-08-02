@@ -5,14 +5,16 @@ class Solution {
         int ret = 0;
         for (boolean flag = true; words.hasMoreTokens(); flag = true) {
             String word = words.nextToken();
-            for (int i = 0; i < chars.length(); i++)
+            for (int i = 0; i < chars.length(); i++) {
                 if (word.indexOf(chars.charAt(i)) > -1) {
                     flag = false;
                     break;
                 }
+            }
 
-            if (flag)
+            if (flag) {
                 ++ret;
+            }
         }
 
         return ret;

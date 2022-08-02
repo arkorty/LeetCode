@@ -1,5 +1,7 @@
+#include <vector>
+
 class Solution {
-  public:
+public:
     std::vector<std::vector<int>>
     matrixReshape(std::vector<std::vector<int>> &mat, int r, int c) {
         int m = mat.size(), n = mat[0].size();

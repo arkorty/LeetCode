@@ -1,5 +1,7 @@
+#include <vector>
+
 class Solution {
-  public:
+public:
     std::vector<int> twoSum(std::vector<int> &numbers, int target) {
         int j = -1;
         for (int i = 0; i < numbers.size(); ++i) {
@@ -8,14 +10,15 @@ class Solution {
             j = binarySearch(numbers, 0, numbers.size() - 1, otherhalf);
 
             if (j != -1 && i != j) {
-                if (i < j)
-                    return std::vector{i + 1, j + 1};
-                else
-                    return std::vector{j + 1, i + 1};
+                if (i < j) {
+                    return {i + 1, j + 1};
+                } else {
+                    return {j + 1, i + 1};
+                }
             }
         }
 
-        return std::vector{-1, -1};
+        return {-1, -1};
     }
 
     int binarySearch(std::vector<int> &numbers, int start, int end, int key) {

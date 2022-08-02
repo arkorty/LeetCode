@@ -1,5 +1,7 @@
+#include <string>
+
 class Solution {
-  public:
+public:
     int myAtoi(std::string s) {
 
         unsigned long value = 0;

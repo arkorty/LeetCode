@@ -2,7 +2,7 @@
 #include <vector>
 
 class Solution {
-  public:
+public:
     std::array<int, 2> nextEmpty(std::vector<std::vector<char>> &board) {
         for (int i = 0; i < 9; ++i) {
             for (int j = 0; j < 9; ++j) {

@@ -2,7 +2,7 @@
 #include <unordered_map>
 
 class Solution {
-  public:
+public:
     bool isAnagram(std::string s, std::string t) {
         if (s.size() == t.size()) {
             std::unordered_map<char, int> hmap[2];

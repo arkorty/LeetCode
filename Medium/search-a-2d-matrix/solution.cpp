@@ -1,7 +1,7 @@
 #include <vector>
 
 class Solution {
-  private:
+private:
     bool binarySearch(std::vector<int> &nums, int start, int end, int target) {
         while (end >= start) {
             int middle = start + (end - start) / 2;
@@ -36,7 +36,7 @@ class Solution {
     }
     */
 
-  public:
+public:
     bool searchMatrix(std::vector<std::vector<int>> &matrix, int target) {
         int row = matrix.size();
         int col = matrix[0].size();

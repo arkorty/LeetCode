@@ -1,5 +1,8 @@
+#include <algorithm>
+#include <vector>
+
 class Solution {
-  public:
+public:
     /*
     std::vector<int> intersect(std::vector<int> &nums1,
                                std::vector<int> &nums2) {

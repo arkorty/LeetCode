@@ -9,11 +9,11 @@ struct TreeNode {
 };
 
 class Solution {
-  private:
-    void maxDepth(TreeNode *root, int index, int *max) {
+private:
+    void maxDepth(TreeNode *root, int index, int &max) {
         if (root == nullptr) {
-            if (index > *max) {
-                *max = index;
+            if (index > max) {
+                max = index;
             }
 
             return;
@@ -23,10 +23,10 @@ class Solution {
         }
     }
 
-  public:
+public:
     int maxDepth(TreeNode *root) {
         int max = 0;
-        maxDepth(root, 0, &max);
+        maxDepth(root, 0, max);
 
         return max;
     }

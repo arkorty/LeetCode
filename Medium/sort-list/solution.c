@@ -1,3 +1,10 @@
+#include <stdlib.h>
+
+struct ListNode {
+    int val;
+    struct ListNode *next;
+};
+
 struct ListNode *merge(struct ListNode *left, struct ListNode *right) {
     if (!left) {
         return right;

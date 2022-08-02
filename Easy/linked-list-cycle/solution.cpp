@@ -8,7 +8,7 @@ struct ListNode {
 };
 
 class Solution {
-  public:
+public:
     // bool hasCycle(ListNode *head) {
     //     std::unordered_map<ListNode *, int> hmap;
     //     ListNode *curr = head;

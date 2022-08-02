@@ -1,5 +1,7 @@
+#include <vector>
+
 class Solution {
-  public:
+public:
     int maxProfit(std::vector<int> &prices) {
         int prof = 0;
         for (int i = prices.size() - 1, max = 0; i >= 0; --i) {

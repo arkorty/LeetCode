@@ -2,7 +2,7 @@
 #include <stack>
 
 class Solution {
-  public:
+public:
     bool isValid(std::string line) {
         std::stack<char> shelf;
         for (auto iter = line.begin(); iter != line.end(); iter.operator++()) {
