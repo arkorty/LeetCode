@@ -9,9 +9,7 @@ public:
         int maxArea = 0;
         int curArea = 0;
         while (left < right) {
-            curArea =
-                (right - left) *
-                (height[left] < height[right] ? height[left] : height[right]);
+            curArea = (right - left) * (height[left] < height[right] ? height[left] : height[right]);
             maxArea = maxArea > curArea ? maxArea : curArea;
 
             if (height[left] > height[right]) {
